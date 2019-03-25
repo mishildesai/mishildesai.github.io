@@ -46,3 +46,7 @@ a:hover {
     margin: auto;
 }
 
+.content {
+    border-top: 2px solid white;
+}
+
