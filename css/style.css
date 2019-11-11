@@ -6,11 +6,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #0083ff;
+    color: #52acff;
 }
 
 a:visited {
-    color: #49a6ff;
+    color: #52acff;
 }
 
 a:hover {
@@ -46,11 +46,52 @@ a:hover {
     margin: 10px;
 }
 
+.header {
+    overflow: auto;
+}
+
+.title {
+    float: left;
+}
+
+.links {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.iconlink {
+    float: left;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
 .content {
     border-top: 2px solid white;
+}
+
+#github {
+    color: #b1b1b1;
+}
+
+#github:hover {
+    color: white;
+}
+
+#linkedin {
+    color: #b1b1b1;
+}
+
+#linkedin:hover {
+    color: royalblue;
 }
 
 #quote {
     font-style: italic;
 }
+
+
 
